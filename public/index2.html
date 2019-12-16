@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>randomizer</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/c6f27145-8db1-4e40-9e9c-048decee4e55%2Ffavicon.ico?v=1575058391669"
+      type="image/x-icon"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <script src="client2.js"></script>
+    <script src="addserviceworker2.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <ul id="navbar2">
+      <li><a class="active" href="index.html">Pokedex</a></li>
+      <li><a href="index2.html">Randomizer</a></li>
+    </ul>
+
+    <div id="addDialogContainer">
+      <div class="dialog-button"></div>
+
+      <div class="container">
+        <div class="title"><h1>RANDOMIZER</h1></div>
+        <ul id="library2"></ul>
+      </div>
+    </div>
+    <br /><br /><br />
+
+    <div class="content">
+      <div id="info">
+        Hello, user, this is a randomizer for pokemon sun, ultra sun, moon, and
+        ultra moon. Upon clicking the randomizer button at the bottom of the
+        screen a pokemon from generation 7 will appear with an Image and their
+        id number. To get a different pokemon just click the randomize button
+        again to repeat the process. Please note that this randomizer does not
+        include alolan forms, pokemon from previous generations, mega
+        evolutions, and some special pokemon like Meltan because it could only
+        be obtained from pokemon go and the Rotom Pokedex form because it’s the
+        Pokedex that the player receives at the start of the game.<br /><br /><br /><br />
+        <div id="test"></div>
+        <div id="img"></div>
+      </div>
+
+      <button class="button" onclick="randomizer()">Randomize</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="Viewport"
+      content="width=device-width,
+  initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <ul id="navbar">
+      <li><a class="active" href="index.html">Pokedex</a></li>
+      <li><a href="index2.html">Randomizer</a></li>
+    </ul>
+
+    <div id="addDialogContainer">
+      <div class="dialog-button"></div>
+    </div>
+
+    <div class="container">
+      <h1>Gen 7 Pokémon</h1>
+      <ul id="library"></ul>
+    </div>
+
+    <script src="addserviceworker.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
